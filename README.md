@@ -399,22 +399,6 @@ Training data split 5 ways; each fold used once for validation, 4 times for trai
 
 ---
 
-## 🎓 Course Information
-
-**Course:** AI & Machine Learning (23EC402T)  
-**Module:** Term Work Module  
-**Institution:** [Your College/University]  
-**Academic Year:** [Year]
-
-### Learning Outcomes
-- ✅ Feature engineering from raw sensor data
-- ✅ Model selection & comparison using rigorous metrics
-- ✅ Cross-validation & bias-variance tradeoff
-- ✅ Interpretability vs. complexity in ML design
-- ✅ Real-world problem formulation from abstract goals
-
----
-
 ## 💼 Author
 
 **Thanu Shree N**
@@ -443,22 +427,6 @@ To contribute:
 3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-## ❓ FAQ
-
-**Q: Why Linear Regression over deep learning?**  
-A: For this problem, simple, interpretable, and deployable beats complex. Linear Regression achieves 98.9% R² with 6 weights vs. thousands of neural network parameters.
-
-**Q: Can this run on ESP32?**  
-A: Yes — that's the goal. One dot product operation is trivial for microcontrollers.
-
-**Q: How much training data is needed?**  
-A: This demo uses 3,200 sessions. Real deployment would benefit from 5,000+ with diverse pilot behaviors.
-
-**Q: What if pilot behavior changes over time?**  
-A: Model retraining on new sessions is recommended monthly or when assessment accuracy drifts.
 
 ---
 
